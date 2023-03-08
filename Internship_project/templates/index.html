@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta>
+    <title>
+        HTML Input Type submit</title>
+        <style>
+            body {background-color: #EDE6DB;}
+         
+            </style>
+</head>
+ 
+<body style="text-align:center;">
+
+    <p style="color: #1A3C40;">VAHAN</p>
+ 
+    <h1 style="color:#417D7A;">
+            KNOW YOUR VEHICLE
+        </h1>
+		<form method="post" action="/result">
+			<label style="font-size: 33px ;padding-right: 15px;color: #1D5C63;" for="search_key">Enter your name:</label>
+			<input style="font-size: 25px;border-radius: 8px ;border: 1.6px solid #1A3C40;color: #CBE4DE;" type="text" id="search_key" name="search_key" required><br>
+			<br><input style="font-size: 18px;border-radius: 8px ;border: 0.8px solid #1A3C40;" type="submit" value="search" name= "action">
+		</form>
+        <div style="align-items: center;font-size: 29px;color: red;">
+            <h1>{{error}}</h1>
+        </div>
+</body>
+ 
+</html>
